@@ -1,0 +1,34 @@
+# Ambiente virtuale Python
+venv/
+env/
+
+# File compilati da Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configurazioni IDE
+.vscode/
+.idea/
+*.iml
+
+# File di sistema/macOS/Windows
+.DS_Store
+Thumbs.db
+
+# File sensibili
+.env
+*.secret
+
+# File di test / cache pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build / distribuzione
+build/
+dist/
+*.egg-info/
+
+# Log temporanei
+*.log
