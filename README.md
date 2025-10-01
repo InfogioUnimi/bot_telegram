@@ -39,8 +39,8 @@ BOT_TELEGRAM/
 
 1. **Clona la repo**  
    ```bash
-   git clone https://github.com/tuo-username/smart-telegram-bot.git
-   cd smart-telegram-bot
+   git clone https://github.com/InfogioUnimi/bot_telegram.git
+   cd bot_telegram
    ```
 
 2. **Crea un virtualenv ed installa le dipendenze**  
@@ -56,7 +56,7 @@ BOT_TELEGRAM/
    - Inserisci i tuoi token:
      ```bash
      TELEGRAM_TOKEN=INSERISCI_IL_TUO_TOKEN
-     OPENWEATHER_KEY=INSERISCI_LA_TUA_KEY_OPENWEATHER
+     WEATHER_KEY=INSERISCI_LA_TUA_KEY_OPENWEATHER
      ```
 
 4. **Avvia il bot**  
