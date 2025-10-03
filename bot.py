@@ -1,6 +1,6 @@
 import logging
 import config
-from plugins import Weather, Remind, Transalte
+from plugins import Weather, Remind, Transalte, Password
 from telegram import Update
 from telegram.constants import ParseMode # questo permette la formattazione del testo nelle risposte
 from telegram.ext import (
@@ -47,6 +47,7 @@ def main():
     app.add_handler(CommandHandler("weather", Weather.weather))
     app.add_handler(CommandHandler("remind", Remind.remind))
     app.add_handler(CommandHandler("translate", Transalte.translate))
+    app.add_handler(CommandHandler("password", Password.password))
 
 
     #Avvia il bot
